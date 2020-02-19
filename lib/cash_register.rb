@@ -9,8 +9,8 @@ attr_accessor :total, :discount, :items, :last_price
     @last_price = 0
   end
 
-  def add_item(title, price, quantity = 1)
-    self.items += [title] * quantity
+  def add_item(item, price, quantity = 1)
+    self.items += [item] * quantity
     self.last_price = price * quantity
     self.total += price * quantity
   end
