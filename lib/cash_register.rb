@@ -1,1 +1,3 @@
-
+class Cash
+  
+end 
